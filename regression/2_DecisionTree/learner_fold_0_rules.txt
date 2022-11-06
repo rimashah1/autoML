@@ -1,0 +1,16 @@
+if (serum_creatinine > 0.95) and (serum_sodium > 134.5) and (ejection_fraction <= 39.0) then response: 58.118 | based on 65 samples
+
+if (serum_creatinine > 0.95) and (serum_sodium > 134.5) and (ejection_fraction > 39.0) then response: 65.421 | based on 42 samples
+
+if (serum_creatinine > 0.95) and (serum_sodium <= 134.5) and (serum_sodium > 131.5) then response: 71.324 | based on 34 samples
+
+if (serum_creatinine <= 0.95) and (creatinine_phosphokinase <= 237.5) and (creatinine_phosphokinase <= 148.5) then response: 56.462 | based on 26 samples
+
+if (serum_creatinine > 0.95) and (serum_sodium <= 134.5) and (serum_sodium <= 131.5) then response: 59.3 | based on 20 samples
+
+if (serum_creatinine <= 0.95) and (creatinine_phosphokinase > 237.5) and (high_blood_pressure > 0.5) then response: 56.294 | based on 17 samples
+
+if (serum_creatinine <= 0.95) and (creatinine_phosphokinase > 237.5) and (high_blood_pressure <= 0.5) then response: 49.429 | based on 14 samples
+
+if (serum_creatinine <= 0.95) and (creatinine_phosphokinase <= 237.5) and (creatinine_phosphokinase > 148.5) then response: 73.167 | based on 6 samples
+

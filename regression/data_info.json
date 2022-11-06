@@ -1,0 +1,52 @@
+{
+    "columns": [
+        "anaemia",
+        "creatinine_phosphokinase",
+        "diabetes",
+        "ejection_fraction",
+        "high_blood_pressure",
+        "platelets",
+        "serum_creatinine",
+        "serum_sodium",
+        "sex",
+        "smoking",
+        "time",
+        "DEATH_EVENT"
+    ],
+    "rows": 299,
+    "cols": 12,
+    "target_is_numeric": true,
+    "columns_info": {
+        "anaemia": [],
+        "creatinine_phosphokinase": [
+            "scale"
+        ],
+        "diabetes": [],
+        "ejection_fraction": [
+            "scale"
+        ],
+        "high_blood_pressure": [],
+        "platelets": [
+            "scale"
+        ],
+        "serum_creatinine": [
+            "scale"
+        ],
+        "serum_sodium": [
+            "scale"
+        ],
+        "sex": [
+            "scale"
+        ],
+        "smoking": [],
+        "time": [
+            "scale"
+        ],
+        "DEATH_EVENT": []
+    },
+    "target_info": [
+        "scale"
+    ],
+    "n_features": 12,
+    "is_sample_weighted": false
+}

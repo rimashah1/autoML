@@ -1,0 +1,13 @@
+feature,shap_importance
+time,1.7175008
+serum_creatinine,0.5549368
+serum_sodium,0.49484533
+ejection_fraction,0.47703367
+platelets,0.35117796
+creatinine_phosphokinase,0.22116728
+sex,0.20698796
+age,0.19892809
+anaemia,0.11601682
+smoking,0.011166413
+high_blood_pressure,0.0022566984
+diabetes,0.0

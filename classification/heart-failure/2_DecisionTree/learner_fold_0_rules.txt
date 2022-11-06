@@ -1,0 +1,14 @@
+if (time > 68.5) and (serum_creatinine <= 1.45) and (ejection_fraction > 27.5) then class: 0 (proba: 95.51%) | based on 89 samples
+
+if (time <= 68.5) and (serum_sodium <= 136.5) then class: 1 (proba: 100.0%) | based on 22 samples
+
+if (time > 68.5) and (serum_creatinine > 1.45) and (time <= 210.5) then class: 1 (proba: 55.0%) | based on 20 samples
+
+if (time <= 68.5) and (serum_sodium > 136.5) and (platelets <= 289000.0) then class: 1 (proba: 81.25%) | based on 16 samples
+
+if (time > 68.5) and (serum_creatinine <= 1.45) and (ejection_fraction <= 27.5) then class: 0 (proba: 72.73%) | based on 11 samples
+
+if (time > 68.5) and (serum_creatinine > 1.45) and (time > 210.5) then class: 0 (proba: 100.0%) | based on 7 samples
+
+if (time <= 68.5) and (serum_sodium > 136.5) and (platelets > 289000.0) then class: 0 (proba: 100.0%) | based on 3 samples
+

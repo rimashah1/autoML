@@ -1,0 +1,177 @@
+{
+    "uid": "b5805d29-5dc1-47a4-8ed3-3ce8cc9ca25f",
+    "name": "3_Linear",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        10.920101563954972,
+                        948.6692155174645,
+                        11.236928662211806,
+                        81604.69456312302,
+                        1.0531890078080954,
+                        4.292900720799336,
+                        0.4791574237499549,
+                        77.44294494802106
+                    ],
+                    "mean": [
+                        60.174607142857134,
+                        589.6309523809524,
+                        37.63095238095238,
+                        249472.44315476192,
+                        1.399761904761905,
+                        136.60714285714286,
+                        0.6428571428571429,
+                        127.41666666666667
+                    ],
+                    "var": [
+                        119.24861816709183,
+                        899973.2804705217,
+                        126.2685657596372,
+                        6659326174.740599,
+                        1.1092070861678003,
+                        18.428996598639458,
+                        0.22959183673469385,
+                        5997.409722222222
+                    ],
+                    "n_samples_seen": 168,
+                    "n_features_in": 8,
+                    "columns": [
+                        "age",
+                        "creatinine_phosphokinase",
+                        "ejection_fraction",
+                        "platelets",
+                        "serum_creatinine",
+                        "serum_sodium",
+                        "sex",
+                        "time"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "age": [
+                        "scale_normal"
+                    ],
+                    "creatinine_phosphokinase": [
+                        "scale_normal"
+                    ],
+                    "ejection_fraction": [
+                        "scale_normal"
+                    ],
+                    "platelets": [
+                        "scale_normal"
+                    ],
+                    "serum_creatinine": [
+                        "scale_normal"
+                    ],
+                    "serum_sodium": [
+                        "scale_normal"
+                    ],
+                    "sex": [
+                        "scale_normal"
+                    ],
+                    "time": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.1.3",
+            "algorithm_name": "Logistic Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "7392b82a-620e-4233-8fc1-c8afe7bb1304",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "age": [
+                    "scale_normal"
+                ],
+                "creatinine_phosphokinase": [
+                    "scale_normal"
+                ],
+                "ejection_fraction": [
+                    "scale_normal"
+                ],
+                "platelets": [
+                    "scale_normal"
+                ],
+                "serum_creatinine": [
+                    "scale_normal"
+                ],
+                "serum_sodium": [
+                    "scale_normal"
+                ],
+                "sex": [
+                    "scale_normal"
+                ],
+                "time": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "data/heart-failure\\X.data",
+            "y_path": "data/heart-failure\\y.data",
+            "results_path": "data/heart-failure"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "3_Linear",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "3_Linear\\learner_fold_0.linear"
+    ],
+    "predictions_fname": "3_Linear\\predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.3616323360445824,
+    "train_time": 12.304091930389404,
+    "is_stacked": false,
+    "threshold": 0.36400606122043544
+}
