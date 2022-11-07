@@ -13,4 +13,4 @@ The dataset used in this repo contains the medical records for patient's who had
 1. Regression Model
 2. Dependent variable = Age. 
 3. The best model was the Ensemble. The RMSE was 11.3497, which was the lowest of the models. The AUC value was 0.9327
-4. The baseline log loss was 11.3497 and the Ensemble log loss was 11.9538, so the Ensemble model performed slightly better
+4. The baseline RMSE was 11.3497 and the Ensemble RMSE was 11.9538, so the Ensemble model performed slightly better
