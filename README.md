@@ -1,4 +1,7 @@
 # autoML
+The dataset used in this repo contains the medical records for patient's who had had heart failure.
+1. Details on the study and variables can be found here: https://github.com/sauravmishra1710/Heart-Failure-Condition-And-Survival-Analysis
+2. The raw data can be found here https://raw.githubusercontent.com/sauravmishra1710/Heart-Failure-Condition-And-Survival-Analysis/master/Data/heart_failure_clinical_records_dataset.csv
 
 # Experiment 1: Classification
 1. Binary Classification Model
